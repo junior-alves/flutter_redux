@@ -43,7 +43,7 @@ class AppScreen extends StatelessWidget {
                 child: Text("Clique aqui!!!"),
                 onPressed: () {
                   StoreProvider.of<AppState>(context)
-                      .dispatch(ToggleLoadingAction());
+                      .dispatch(waitAndDispatch(5));
                 },
               ),
             ),

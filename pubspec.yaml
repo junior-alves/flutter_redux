@@ -19,12 +19,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_redux: 0.5.0
+  redux_thunk: ^0.3.0
+  flutter_redux: ^0.6.0
   async: ^2.0.8
-  redux_epics: 0.10.3
-  meta:
-  rxdart: ^0.20.0
-  transparent_image:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
