@@ -1,0 +1,3 @@
+class ToggleLoadingAction {
+  ToggleLoadingAction();
+}
